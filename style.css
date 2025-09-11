@@ -1,21 +1,26 @@
 body {
-  background-color: red;
+  background-color: white;
 }
-h1 {
-  color: white;
+.hero {
+  color: rgb(35, 128, 105);
 }
-h2 {
-  color: white;
+
+.aboutme {
+  color: black;
 }
-#p1 {
-  color: white;
+.projects {
+  color: black;
 }
-#p2 {
-  color: aqua;
+.skills {
+  color: black;
 }
-#p3 {
-  color: white;
+.education {
+  color: black;
 }
-ul {
-  color: white;
+.contact {
+  color: black;
+}
+.logo {
+  width: 100px;
+  height: 100px;
 }
