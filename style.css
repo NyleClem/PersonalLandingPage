@@ -1,26 +1,11 @@
-body {
-  background-color: white;
-}
 .hero {
-  color: rgb(35, 128, 105);
+  text-align: center;
 }
 
-.aboutme {
-  color: black;
+img {
+  max-width: 50px;
+  max-height: 50px;
 }
-.projects {
-  color: black;
-}
-.skills {
-  color: black;
-}
-.education {
-  color: black;
-}
-.contact {
-  color: black;
-}
-.logo {
-  width: 100px;
-  height: 100px;
+body {
+  background-color: brown;
 }

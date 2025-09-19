@@ -1,15 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--Meta content for Search Engine Optimization(SEO)-->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=devicewidth, initial-scale=1.0" />
+    <meta name="description" content="A personal website for Nyle Clements" />
+    <meta content="www.NyleClem.org" property="og:title" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My personal website</title>
+    <!--Links to my stylesheet and my icon that is displayed on the tab-->
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="LogoMaadScience.png" />
   </head>
-  <body>
+  <header>
+    <!--Nav element allows me to navigate to different sections of my page-->
+    <nav>
+      <ul>
+        <a href="#homer"><li>Home</li></a>
+        <a href="#projector"><li>Projects</li></a>
+        <a href="#contacter"><li>contact</li></a>
+        <a href="motivation.html"><li>Motivation</li></a>
+      </ul>
+    </nav>
+  </header>
+  <body class="Home" id="homer">
+    <script>
+      alert("Welcome to my personal page!");
+    </script>
     <main>
-      <section>
-        <div class="hero">
+      <section class="hero">
+        <h1>Nyle Clements Personal Website</h1>
+        <figure>
+          <!--Remember to link Maad Science Website here-->
           <a href="LogoMaadScience.png" target="_blank">
             <img
               src="LogoMaadScience.png"
@@ -17,18 +39,18 @@
               class="logo"
             />
           </a>
-          <p>
-            Click photo or check out
-            <a href="LogoMaadScience.png" target="_blank">MaadScience</a> site
-            here.
-          </p>
-          <h1>Nyle Clements Personal Website</h1>
-        </div>
+          <figcaption>This is my logo for my business</figcaption>
+        </figure>
+        <p>
+          Click photo or check out
+          <a href="LogoMaadScience.png" target="_blank">MaadScience</a> site
+          here.
+        </p>
       </section>
     </main>
-    <hr />
-    <section>
-      <div class="aboutme">
+    <section class="AboutMe">
+      <div>
+        <!--Add professional photo of myself here-->
         <h3>FACTS ABOUT ME</h3>
         <h4>Most Important</h4>
         <ul>
@@ -37,41 +59,43 @@
           <li>Fitness Enthusiast</li>
         </ul>
       </div>
-      <h4>Hobbies</h4>
-      <ul>
-        <li>Watching sports</li>
-        <li>Gun range & collecting</li>
-        <li>Anime</li>
-      </ul>
-      <h4>Future Interests</h4>
-      <ul>
-        <li>Skydiving</li>
-        <li>Travelling</li>
-        <li>Fishing</li>
-        <li>Hunting</li>
-        <li>Mountain Climbing</li>
-      </ul>
+      <div>
+        <h4>Hobbies</h4>
+        <ul>
+          <li>Watching sports</li>
+          <li>Gun range & collecting</li>
+          <li>Anime</li>
+        </ul>
+        <h4>Future Interests</h4>
+        <ul>
+          <li>Skydiving</li>
+          <li>Travelling</li>
+          <li>Fishing</li>
+          <li>Hunting</li>
+          <li>Mountain Climbing</li>
+        </ul>
+      </div>
     </section>
-    <section>
-      <h2>Projects</h2>
-      <div class="projects">
+    <section class="Resume">
+      <div class="projects" id="projector">
+        <h2>Projects</h2>
         <ol>
-          <li>Personal landing Page</li>
-          <p id="p1">
+          <li>Personal Website</li>
+          <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Perferendis, reprehenderit. Tenetur, ex ipsam perspiciatis
             temporibus, quam, odit possimus aut molestias nobis velit neque
             minima hic repellat ab illo sit totam.
           </p>
           <li>NFL Personnel Recommender</li>
-          <p id="p2">
+          <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat
             nam non hic voluptatum asperiores laboriosam, eius fugiat earum,
             nisi cum nostrum, quo molestias amet expedita reiciendis vel
             perspiciatis quam labore?
           </p>
           <li>More</li>
-          <p id="p3">
+          <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Consectetur distinctio cum modi eligendi saepe odit sed qui voluptas
             id laboriosam consequuntur molestiae autem iste, dolorum ut impedit,
@@ -79,18 +103,48 @@
           </p>
         </ol>
       </div>
-    </section>
-    <section>
+
       <div class="skills"></div>
-    </section>
-    <section>
+
       <div class="education"></div>
     </section>
-    <section>
-      <div class="contact">
+    <section class="insight">
+      <!--Added an external youtube video, remember that I altered the link to have /embed/ right after .com-->
+      <iframe
+        src="https://www.youtube.com/embed/3fjYSXrqU3o"
+        width="300"
+        height="300"
+        allowfullscreen
+        title="Brain Waves"
+      ></iframe>
+      <!--Clicked share and embed code option on google maps for the src link-->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.4244374263594!2d-76.6150424240393!3d39.39190267162267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c80fbe06610c01%3A0x9c3916eeb682f854!2sTowson%20University!5e0!3m2!1sen!2sus!4v1757727137967!5m2!1sen!2sus"
+        allowfullscreen
+        title="Maps"
+      ></iframe>
+    </section>
+    <section class="contact" id="contacter">
+      <footer>
+        <!--Add contact information here-->
+
         <h5>Get in Touch</h5>
         <p>Feel free to reach out if you would like to collaborate!</p>
-      </div>
+        <address>
+          <p>
+            Email:
+            <a href="mailto:nclemen1@students.towson.edu"
+              >nclemen1@students.towson.edu</a
+            >
+          </p>
+        </address>
+        <!--Scalable vector Graphic(SVG) of a heart icon-->
+        <svg width="50" height="50" viewBox="0 0 30 30" fill="blue">
+          <path
+            d="M12 21s-6-4.35-9.33-8.22C-.5 7.39 3.24 1 8.4 4.28 10.08 5.32 12 7.5 12 7.5s1.92-2.18 3.6-3.22C20.76 1 24.5 7.39 21.33 12.78 18 16.65 12 21 12 21z"
+          ></path>
+        </svg>
+      </footer>
     </section>
   </body>
 </html>
